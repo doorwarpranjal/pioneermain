@@ -1,0 +1,150 @@
+/* Author: Anurag Singh */
+
+
+.banners {
+  padding: 0 7.5px;
+}
+
+@media (min-width: 1600px) {
+  .banners-container {
+    width: 90%;
+  }
+}
+
+.read-more {
+  margin-top: 2em;
+  width: max-content;
+}
+
+.who-we-are {
+  text-align: center;
+  padding : 10px;
+}
+
+.what-we-do h2 {
+  margin-bottom: 0.5em;
+}
+
+.what-we-do p {
+  color: #ddd;
+  margin-bottom: 2em;
+}
+
+.kickstar-section {
+  background-image: url('/img/newsletter_bg.png');
+}
+
+.profile_info_iner {
+  margin-top: 45px;
+}
+
+@media (max-width: 991px) {
+  .profile_info_iner {
+    margin-top: 0;
+  }
+}
+
+.get-to-know {
+  max-width: 1400px;
+}
+
+.contact_us_subtitle {
+  width: 20em;
+}
+
+.contact_us_subtitle p {
+  font-size: 1.25em;
+}
+
+@media (max-width: 1200px) {
+  .contact_us_subtitle p {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+}
+@media (max-width: 991px) {
+  .contact_us_subtitle p {
+    font-size: 1em;
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .contact_us_subtitle p {
+    font-size: 0.9em;
+  }
+
+  .contact_us_subtitle {
+    width: 15em;
+  }
+}
+
+.about_section {
+  padding-bottom: 2.5em;
+}
+
+.single_blog_post ul {
+  margin-top: 20px;
+}
+
+.single_blog_post h4 {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .single_blog_post {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 400px) {
+  .single_blog_post {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+element.style {
+  margin: 0;
+}
+.social_icon > :first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 576px) {
+  .services_block {
+    margin-bottom: 2em;
+  }
+
+  .footer_section.footer_style_2 .footer_nav h4 {
+    margin-bottom: 5px;
+  }
+}
+
+.header_part .navbar-collapse {
+  top: 50px;
+}
+
+.subscribe_form_section {
+  margin-bottom: -1px;
+}
+
+.map {
+  max-width: 1000px;
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+}
+
+.map iframe {
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 0 35px; 
+}
+
+@media (max-width: 576px) {
+  .map iframe {
+    margin: 0 15px;
+  }
+}
